@@ -32,11 +32,16 @@ def mult(a, b):
 # b -- divisor
 def div(a, b):
     return a / b
+<<<<<<< HEAD
 #Modulus  function
 
 def mod(a, b):
 	return a % b
 
+=======
+def exp(a,b):
+    return a**b
+>>>>>>> 553b38ded56217c8d54e6af14cb38506d8e432e8
 
 # -------------------------------------------------------- #
 
@@ -71,9 +76,14 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+<<<<<<< HEAD
 		elif (op == "%"):
 			print "Modulus: ", mod(a, b)
 	
+=======
+        elif (op == "**"):
+            print "Exponent:",exp(a,b)
+>>>>>>> 553b38ded56217c8d54e6af14cb38506d8e432e8
         else:
             print "Invalid operation..."
 
